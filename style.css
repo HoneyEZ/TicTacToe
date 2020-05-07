@@ -2,10 +2,10 @@ body {
     background-color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .grid {
-    background-color: rgba(0,0,0,.2);
+}
+
+.grid {
+    background-color: rgba(0, 0, 0, .2);
     margin: 50px auto;
     vertical-align: center;
     width: 400px;
@@ -16,57 +16,57 @@ body {
     grid-gap: 2px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
-  }
-  
-  .square {
+}
+
+.square {
     background-color: white;
-    transition: background-color .5s;  
+    transition: background-color .5s;
     font-size: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .square:hover {
-    background-color: rgba(0,0,0,0);
+}
+
+.square:hover {
+    background-color: rgba(0, 0, 0, 0);
     transition: background-color .5s;
     cursor: pointer;
-  }
-  
-  .reset {
+}
+
+.reset {
     font-size: 20px;
     color: tomato;
     background-color: white;
     border: 1px solid tomato;
     padding: 5px;
     transition: border, color, .5s;
-  }
-  
-  .reset:hover {
+}
+
+.reset:hover {
     cursor: pointer;
     color: rgb(58, 58, 58);
     background-color: rgb(223, 223, 223);
     border: 1px solid rgb(58, 58, 58);
     transition: border, color, .5s;
-  }
-  
-  .reset:focus {
+}
+
+.reset:focus {
     outline: none;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin: 0 auto;
     font-size: 45px;
     margin: 10px;
-  }
-  
-  h2 {
+}
+
+h2 {
     margin: 0 auto;
     font-size: 25px;
     margin: 10px;
-  } 
-  
-  .select-button {
+}
+
+.select-button {
     text-align: center;
     font-size: 20px;
     background-color: white;
@@ -74,13 +74,12 @@ body {
     height: 35px;
     width: 35px;
     margin: 3px;
-  }
-  
-  .select-button:hover {
+}
+
+.select-button:hover {
     cursor: pointer;
     background-color: rgb(223, 223, 223);
     color: rgb(58, 58, 58);
     border: 1px solid rgb(58, 58, 58);
     transition: border, color, .5s;
-  }
-  
+}
